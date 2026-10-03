@@ -16,7 +16,7 @@ public slots:
   void light_update();
 
 private:
-  enum class State {Red, Green, Yellow}
+  enum class State {Red, Green, Yellow};
   State state;
   QRadioButton * redlight;
   QRadioButton * yellowlight;
